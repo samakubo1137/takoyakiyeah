@@ -6,11 +6,14 @@ public class camera : MonoBehaviour
 {
     public GameObject Player;
 
+    private void Start()
+    {
+      
+    }
+
     private void Update()
     {
-        Vector3 PlayerPos = Player.transform.position;
-
-        transform.position = new Vector3(PlayerPos.x, 0, -10);
+        transform.position = new Vector3(Player.transform.position.x, 5, -10);
     }
 }
 
