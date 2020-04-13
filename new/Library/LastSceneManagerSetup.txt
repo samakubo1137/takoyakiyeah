@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/user/Documents/GitHub/takoyakiyeah/enemy/Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
