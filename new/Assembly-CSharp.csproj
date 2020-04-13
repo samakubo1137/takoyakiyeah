@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Anima2D\Examples\Scripts\CharacterMotion.cs" />
+    <Compile Include="Assets\Anima2D\Examples\Scripts\Enemy.cs" />
     <Compile Include="Assets\Anima2D\Examples\Scripts\Follow.cs" />
     <Compile Include="Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs" />
     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringBone.cs" />
