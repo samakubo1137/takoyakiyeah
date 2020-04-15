@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\CyberPunk_Blonde\Demo\Necessary for Demo Scene\Input_Controller.cs" />
     <Compile Include="Assets\CyberPunk_Blonde\Documentation\Readme.txt.cs" />
+    <Compile Include="Assets\Enemy.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/user/Documents/GitHub/takoyakiyeah/enemy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
