@@ -562,3 +562,7 @@ C:\Users\user\Desktop\stage\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.c
 C:\Users\user\Desktop\stage\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\user\Desktop\stage\obj\Debug\Assembly-CSharp.dll
 C:\Users\user\Desktop\stage\obj\Debug\Assembly-CSharp.pdb
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp.dll
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp.pdb

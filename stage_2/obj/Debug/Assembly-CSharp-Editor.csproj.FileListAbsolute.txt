@@ -1,0 +1,2 @@
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
