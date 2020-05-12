@@ -7,6 +7,6 @@ public class Button1 : MonoBehaviour
    
     public void OnClickStartButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("stage1");
     }
 }
