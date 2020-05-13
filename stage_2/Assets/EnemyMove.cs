@@ -7,6 +7,7 @@ public class EnemyMove : MonoBehaviour
 
     public float speed;
     public float grabity;
+    //public EnemyCollisionCheck checkCollision;
 
 
     private Rigidbody2D rd = null;
@@ -25,6 +26,10 @@ public class EnemyMove : MonoBehaviour
     {
         if (sr.isVisible)
         {
+            //if(checkCollision.isOn)
+            //{
+            //    rightTleftF = !rightTleftF; //逆にする
+            //}
             int xVector = -1;
             if (rightTleftF)
             {
