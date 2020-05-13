@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -57,5 +58,12 @@ public class PlayerController : MonoBehaviour
         {
             jump = false;
         }
+    }
+
+    //ゴールに到達
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Goal");
+        SceneManager.LoadScene("ClaerScene");
     }
 }
