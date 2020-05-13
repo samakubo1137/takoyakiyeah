@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -58,12 +57,5 @@ public class PlayerController : MonoBehaviour
         {
             jump = false;
         }
-    }
-
-    //ゴールに到達
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Goal");
-        SceneManager.LoadScene("ClaerScene");
     }
 }
