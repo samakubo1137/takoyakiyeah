@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject bulletPrefab; // 弾のプレハブ
+
     //変数定義
     public float flap = 1000f;
     public float scroll = 5f;
@@ -49,6 +51,16 @@ public class PlayerController : MonoBehaviour
             jump = true;
         }
 
+        // -----弾発射処理-----
+        if (Input.GetKeyDown(KeyCode.A))
+        { // Aを押された瞬間
+          // GameObject型ローカル変数を宣言 (生成したインスタンスを格納する)
+            GameObject obj;
+            // 弾プレハブのインスタンスを生成し、変数objに格納
+            obj = Instantiate(bulletPrefab);
+            // 弾インスタンスの座標にプレイヤーの座標をセット
+            obj.transform.position = transform.position;
+        }
 
     }
 
