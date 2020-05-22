@@ -21,6 +21,13 @@ public class EnemyMove : MonoBehaviour
         rd = GetComponent<Rigidbody2D>();
     }
 
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        // 弾とエネミーオブジェクトを消滅させる
+        Destroy(collider.gameObject);   // 弾オブジェクト消去
+        Destroy(gameObject);            // 自オブジェクト消去
+    }
+
     // Update is called once per frame
     void Update()
     {
