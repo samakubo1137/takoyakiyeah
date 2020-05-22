@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown("space") && !jump)
         {
             rb2d.AddForce(Vector2.up * flap);
-            jump = true;
+          
         }
 
         // -----弾発射処理-----
@@ -70,10 +70,23 @@ public class PlayerController : MonoBehaviour
         {
             jump = false;
         }
+
+        if (other.gameObject.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene("ClaerScene");
+        }
+        if (other.gameObject.CompareTag("Daed"))
+        {
+            SceneManager.LoadScene("ClaerScene");
+        }
+
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionExit2D(Collision2D other)
     {
-        SceneManager.LoadScene("ClaerScene");
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            jump = true;
+        }
     }
 }
