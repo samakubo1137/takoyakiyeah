@@ -6,11 +6,14 @@ public class EnemyMove : MonoBehaviour
 {
 
     public float speed;
-    public float grabity;
+    public float gravity;
+
+
+    
     //public EnemyCollisionCheck checkCollision;
 
 
-    private Rigidbody2D rd = null;
+    private Rigidbody2D rb = null;
     private SpriteRenderer sr = null;
     private bool rightTleftF = false;
 
@@ -18,7 +21,7 @@ public class EnemyMove : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        rd = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -48,7 +51,7 @@ public class EnemyMove : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
 
             }
-            rd.velocity = new Vector2(xVector * speed, -grabity);
+            rb.velocity = new Vector2(xVector * speed, -gravity);
 
 
 
