@@ -90,6 +90,7 @@
     <Compile Include="Assets\ClearDirector.cs" />
     <Compile Include="Assets\CyberPunk_Blonde\Demo\Necessary for Demo Scene\Input_Controller.cs" />
     <Compile Include="Assets\CyberPunk_Blonde\Documentation\Readme.txt.cs" />
+    <Compile Include="Assets\EnemyCollisionCheck.cs" />
     <Compile Include="Assets\EnemyMove.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
     <Compile Include="Assets\HP.cs" />

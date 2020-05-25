@@ -7,7 +7,7 @@ public class EnemyMove : MonoBehaviour
 
     public float speed;
     public float gravity;
-
+    public EnemyCollisionCheck checkCollision;
 
     
     //public EnemyCollisionCheck checkCollision;
@@ -38,7 +38,7 @@ public class EnemyMove : MonoBehaviour
         {
             //if(checkCollision.isOn)
             //{
-            //    rightTleftF = !rightTleftF; //逆にする
+            //   rightTleftF = !rightTleftF; //逆にする
             //}
             int xVector = -1;
             if (rightTleftF)
@@ -52,7 +52,7 @@ public class EnemyMove : MonoBehaviour
 
             }
             rb.velocity = new Vector2(xVector * speed, -gravity);
-
+            
 
 
 
