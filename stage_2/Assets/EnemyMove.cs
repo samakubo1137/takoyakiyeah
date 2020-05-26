@@ -7,7 +7,7 @@ public class EnemyMove : MonoBehaviour
 
     public float speed;
     public float gravity;
-    public EnemyCollisionCheck checkCollision;
+    
 
     
     //public EnemyCollisionCheck checkCollision;

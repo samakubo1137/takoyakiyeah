@@ -1,4 +1,39 @@
 sceneSetups:
-- path: Assets/Scenes/stage1.unity
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Scenes/stage2.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+- path: Assets/Scenes/GameOver.unity
+=======
+<<<<<<< HEAD
+>>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
+- path: Assets/Scenes/menu.unity
+=======
+- path: Assets/Scenes/ClaerScene.unity
+>>>>>>> cdc9931d5d6270ac588468220186b8fb37ba8e97
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
+=======
+=======
+>>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
+>>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
   isLoaded: 1
   isActive: 1
