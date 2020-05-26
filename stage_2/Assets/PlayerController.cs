@@ -75,9 +75,9 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("ClaerScene");
         }
-        if (other.gameObject.CompareTag("Daed"))
+        if (other.gameObject.CompareTag("Dead"))
         {
-            SceneManager.LoadScene("ClaerScene");
+            SceneManager.LoadScene("GameOver");
         }
 
     }
