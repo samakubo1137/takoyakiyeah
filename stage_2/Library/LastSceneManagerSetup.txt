@@ -4,6 +4,7 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/stage2.unity
 =======
 <<<<<<< HEAD
@@ -18,6 +19,11 @@ sceneSetups:
 =======
 <<<<<<< HEAD
 >>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
+=======
+- path: Assets/Scenes/GameOver.unity
+=======
+<<<<<<< HEAD
+>>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
 - path: Assets/Scenes/menu.unity
 =======
 - path: Assets/Scenes/ClaerScene.unity
@@ -26,12 +32,15 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
 =======
 >>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
 =======
 >>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
 =======
+=======
+>>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
 =======
 >>>>>>> b9c0ae953ad23376f9b886eb80712815fca5d4f9
 >>>>>>> 9aef428e9840ab78f735a135f0c1369eca87bdcd
