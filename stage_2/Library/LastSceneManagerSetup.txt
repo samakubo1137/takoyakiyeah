@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/menu.unity
+=======
+- path: Assets/Scenes/ClaerScene.unity
+>>>>>>> cdc9931d5d6270ac588468220186b8fb37ba8e97
   isLoaded: 1
   isActive: 1

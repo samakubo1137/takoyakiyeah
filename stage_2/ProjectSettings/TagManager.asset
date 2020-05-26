@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
+  - Goal
+  - Dead
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -14,9 +18,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Particle
+  - Enemy
+  - House
   - 
   - 
   - 
@@ -41,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 1467860979
+    locked: 0
+  - name: Particle
+    uniqueID: 1777678645
     locked: 0
