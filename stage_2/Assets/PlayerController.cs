@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject bulletPrefab; // 弾のプレハブ
+
     //変数定義
     public float flap = 1000f;
     public float scroll = 5f;
@@ -18,7 +21,7 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -45,9 +48,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown("space") && !jump)
         {
             rb2d.AddForce(Vector2.up * flap);
-            jump = true;
+          
         }
 
+        // -----弾発射処理-----
+        if (Input.GetKeyDown(KeyCode.A))
+        { // Aを押された瞬間
+          // GameObject型ローカル変数を宣言 (生成したインスタンスを格納する)
+            GameObject obj;
+            // 弾プレハブのインスタンスを生成し、変数objに格納
+            obj = Instantiate(bulletPrefab);
+            // 弾インスタンスの座標にプレイヤーの座標をセット
+            obj.transform.position = transform.position;
+        }
 
     }
 
@@ -56,6 +69,24 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             jump = false;
+        }
+
+        if (other.gameObject.CompareTag("Goal"))
+        {
+            SceneManager.LoadScene("ClaerScene");
+        }
+        if (other.gameObject.CompareTag("Dead"))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            jump = true;
         }
     }
 }
