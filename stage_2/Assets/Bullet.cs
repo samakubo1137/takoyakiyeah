@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     // 変数宣言
-    private float speed = 3.0f; // スピード
+    private float speed = 10.0f; // スピード
     private float time = 0.0f;  // 経過時間
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour
         // 前回のUpdate実行から経過した時間をtimeに加算
         time += Time.deltaTime;
         // 消滅処理
-        if (time > 2.0f)
+        if (time > 0.5f)
         { // 弾の経過時間が3秒より大きければ
             Destroy(gameObject);
         }
