@@ -3,50 +3,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 
-public class HP : MonoBehaviour
+public class hp : MonoBehaviour
 {
-
-    //最大HPと現在のHP。
-    int maxHp = 155;
-    int currentHp;
-    //Sliderを入れる
-    public Slider slider;
-
+    public int HP = 3;//hp
+    private Slider _slider;//Sliderの値を代入する
+    public GameObject slider;//体力ゲージに指定するSlider
 
     void Start()
     {
-        //Sliderを満タンにする。
-        slider.value = 1;
-        //現在のHPを最大HPと同じに。
-        currentHp = maxHp;
-        Debug.Log("Start currentHp : " + currentHp);
+        _slider = slider.GetComponent<Slider>();
     }
 
-    //ColliderオブジェクトのIsTriggerにチェック入れること。
-    private void OnTriggerEnter(Collider collider)
+    // Update is called once per frame
+    void Update()
     {
-        //Enemyタグのオブジェクトに触れると発動
-        if (collider.gameObject.tag == "Enemy")
+        _slider.value = HP;
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Enemy")//衝突した相手のタグがEnemyなら
         {
-            //ダメージは1～100の中でランダムに決める。
-            int damage = Random.Range(1, 100);
-            Debug.Log("damage : " + damage);
+            HP -= 1;//hpを-1ずつ変える
+        }
 
-            //現在のHPからダメージを引く
-            currentHp = currentHp - damage;
-            Debug.Log("After currentHp : " + currentHp);
-
-            //最大HPにおける現在のHPをSliderに反映。
-            //int同士の割り算は小数点以下は0になるので、
-            //(float)をつけてfloatの変数として振舞わせる。
-            slider.value = (float)currentHp / (float)maxHp; ;
-            Debug.Log("slider.value : " + slider.value);
+        if (HP <= 0)//もしhpが0以下なら
+        {
+            SceneManager.LoadScene("GameOver");
         }
     }
 
 
-
 }
+
+
+
