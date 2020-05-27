@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     public GameObject bulletPrefab; // 弾のプレハブ
 
     //変数定義
+    public int shitCount;
+    private float timeBetweenShot = 0.35f;
+    public float timer;
     public float flap = 1000f;
     public float scroll = 5f;
     float direction = 0f;
@@ -60,6 +63,8 @@ public class PlayerController : MonoBehaviour
             obj = Instantiate(bulletPrefab);
             // 弾インスタンスの座標にプレイヤーの座標をセット
             obj.transform.position = transform.position;
+
+            timer += Time.deltaTime;
         }
 
     }
