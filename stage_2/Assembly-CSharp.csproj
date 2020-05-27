@@ -94,7 +94,7 @@
     <Compile Include="Assets\EffectDestroy.cs" />
     <Compile Include="Assets\EnemyMove.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
-    <Compile Include="Assets\hp.cs" />
+    <Compile Include="Assets\HP.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
     <Compile Include="Assets\PlayerController.cs" />
