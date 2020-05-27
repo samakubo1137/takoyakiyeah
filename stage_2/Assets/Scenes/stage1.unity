@@ -28695,7 +28695,7 @@ ParticleSystem:
   CollisionModule:
     enabled: 1
     serializedVersion: 3
-    type: 0
+    type: 1
     collisionMode: 1
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -29837,8 +29837,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961620159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7, y: 0, z: -18.9}
-  m_LocalScale: {x: 1.1125, y: 1, z: 0.0002671915}
+  m_LocalPosition: {x: -2.7, y: 0, z: -18.6}
+  m_LocalScale: {x: 0.87192184, y: 1, z: 0.000090254616}
   m_Children: []
   m_Father: {fileID: 1824785074}
   m_RootOrder: 0
