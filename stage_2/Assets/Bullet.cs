@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     // 変数宣言
     private float speed = 10.0f; // スピード
     private float time = 0.0f;  // 経過時間
+    
     // Start is called before the first frame update
     void Start()
     {
