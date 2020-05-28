@@ -26,12 +26,12 @@ public class hp : MonoBehaviour
 
     void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Enemy")//衝突した相手のタグがEnemyなら
+        if (collision.gameObject.tag == "Enemy")
         {
-            HP -= 1;//hpを-1ずつ変える
+            HP -= 1;
         }
 
-        if (HP <= 0)//もしhpが0以下なら
+        if (HP <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }
