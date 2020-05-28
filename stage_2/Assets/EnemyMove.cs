@@ -7,7 +7,9 @@ public class EnemyMove : MonoBehaviour
 
     public float speed;
     public float gravity;
-    
+
+    public int Score; //敵を倒すとえられる点数
+    private ScoreManager sm;
 
     
     //public EnemyCollisionCheck checkCollision;
@@ -22,6 +24,7 @@ public class EnemyMove : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        sm = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -29,6 +32,8 @@ public class EnemyMove : MonoBehaviour
         // 弾とエネミーオブジェクトを消滅させる
         Destroy(collider.gameObject);   // 弾オブジェクト消去
         Destroy(gameObject);            // 自オブジェクト消去
+
+        sm.AddScore(Score);
     }
 
     // Update is called once per frame
