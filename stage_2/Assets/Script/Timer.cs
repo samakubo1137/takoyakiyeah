@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-        float countTime = 90;
+        float countTime = 180;
 
         // Update is called once per frame
         void Update()
@@ -14,9 +14,9 @@ public class Timer : MonoBehaviour
             countTime -= Time.deltaTime;
             GetComponent<Text>().text = countTime.ToString("F2");
         　　
-        　　if(countTime <= 0)
+        　　if(countTime == 0)
             {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("ここにゲームオーバー(タイムアップ？)のシーン名を入力");
             }
         }
 
