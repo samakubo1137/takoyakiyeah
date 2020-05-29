@@ -5,30 +5,27 @@ using UnityEngine.UI;
 
 public class water : MonoBehaviour
 {
-    float _water = 100;
-    Slider _slider;
 
-    // Start is called before the first frame update
+    Slider _slider;
     void Start()
     {
+        // スライダーを取得する
         _slider = GameObject.Find("Slider").GetComponent<Slider>();
-
     }
-    
 
-    
-
-    // Update is called once per frame
+    float _water = 100;
     void Update()
     {
         if (Input.GetKey(KeyCode.A))
         {
-            _water -= -5;
+            _water -= -5; 
         }
 
+        // HPゲージに値を設定
+        _slider.value = _water;
     }
 
-    
+
 
 }
 

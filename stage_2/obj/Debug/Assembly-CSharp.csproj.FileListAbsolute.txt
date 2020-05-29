@@ -844,3 +844,6 @@ C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEngine.N
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.UI.xml

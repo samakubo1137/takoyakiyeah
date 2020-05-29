@@ -210,6 +210,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &436990484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436990478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d267f36b6c02c6d47b4bcdd41c582205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &504763513
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,10 +4205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b80f105da5f3e24f9cc15ecb83ecd30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 3486088929263489231, guid: 14139d6383981324e809be79fca708d8,
-    type: 3}
-  shitCount: 0
-  timer: 0
   flap: 300
   scroll: 5
 --- !u!50 &1765210241
