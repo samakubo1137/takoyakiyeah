@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -70,5 +71,16 @@ public class PlayerController : MonoBehaviour
         {
             jump = false;
         }
-    }
+
+        if (other.gameObject.tag == "Goal")
+        {
+            SceneManager.LoadScene("ClaerScene");
+        }
+
+        if (other.gameObject.tag == "Dead")
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
+    }    
 }
