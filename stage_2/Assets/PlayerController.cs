@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     float direction = 0f;
     Rigidbody2D rb2d;
     bool jump = false;
+    public GameObject bulletPrefab; // 弾のプレハブ
+
 
     // Use this for initialization
     void Start()
@@ -37,6 +39,17 @@ public class PlayerController : MonoBehaviour
             direction = 0f;
         }
 
+
+        // -----弾発射処理-----
+        if (Input.GetKey(KeyCode.A))
+        { // 左クリックを押された瞬間
+          // GameObject型ローカル変数を宣言 (生成したインスタンスを格納する)
+            GameObject obj;
+            // 弾プレハブのインスタンスを生成し、変数objに格納
+            obj = Instantiate(bulletPrefab);
+            // 弾インスタンスの座標にプレイヤーの座標をセット
+            obj.transform.position = transform.position;
+        }
 
         //キャラのy軸のdirection方向にscrollの力をかける
         rb2d.velocity = new Vector2(scroll * direction, rb2d.velocity.y);
