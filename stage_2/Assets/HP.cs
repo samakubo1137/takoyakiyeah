@@ -24,7 +24,7 @@ public class hp : MonoBehaviour
         _slider.value = HP;
     }
 
-    void OnTriggerEnter(Collider collision)
+    void OnColliderEnter2D(Collider collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
