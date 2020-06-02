@@ -2,28 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class water : MonoBehaviour
 {
+    public int Water = 100;
+    private Slider _slider;
+    public GameObject slider;
 
-    Slider _slider;
     void Start()
     {
-        // スライダーを取得する
-        _slider = GameObject.Find("Slider").GetComponent<Slider>();
+        _slider = slider.GetComponent<Slider>();
     }
 
-    float _water = 100;
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.A))
         {
-            _water -= -5; 
+            Water -= 1;
+            Debug.Log("water");
         }
 
-        // HPゲージに値を設定
-        _slider.value = _water;
+        _slider.value = Water;
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (Water <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+    }
+
+
 
 
 
