@@ -4207,6 +4207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flap: 300
   scroll: 5
+  bulletPrefab: {fileID: 0}
 --- !u!50 &1765210241
 Rigidbody2D:
   serializedVersion: 4
