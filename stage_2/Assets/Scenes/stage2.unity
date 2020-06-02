@@ -64337,6 +64337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8756037410205942284, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 5797763599310547495, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64447,11 +64452,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 8756037410205942284, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -5
-      objectReference: {fileID: 0}
     - target: {fileID: 5912382952459411381, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_IsActive
@@ -74767,6 +74767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f43f8dc86d4c1643bf52215c4edef88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 3
+  slider: {fileID: 809267014}
 --- !u!114 &1765210246
 MonoBehaviour:
   m_ObjectHideFlags: 0
