@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/stage2.unity
+=======
+- path: Assets/Scenes/BOSS.unity
+>>>>>>> 671ead9aa7d379865786ac1ef2946b501a4c5022
 =======
 - path: Assets/Scenes/stage1.unity
 >>>>>>> 97881217e241a3241c727ff560bd1fa39de46a96
