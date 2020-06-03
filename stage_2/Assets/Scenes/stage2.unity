@@ -5513,7 +5513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -321.3, y: 318.6}
+  m_AnchoredPosition: {x: -321.3, y: 202.2}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293102850
@@ -64337,7 +64337,7 @@ PrefabInstance:
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 270
+      value: 399
       objectReference: {fileID: 0}
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -64377,7 +64377,7 @@ PrefabInstance:
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 264
+      value: 395
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -74738,6 +74738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f43f8dc86d4c1643bf52215c4edef88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 3
+  slider: {fileID: 0}
 --- !u!114 &1765210246
 MonoBehaviour:
   m_ObjectHideFlags: 0
