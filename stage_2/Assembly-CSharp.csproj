@@ -85,6 +85,7 @@
     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+    <Compile Include="Assets\BossGenerater.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\ClearDirector.cs" />
@@ -105,7 +106,6 @@
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTilePattern.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
-    <Compile Include="Assets\Script\bossnougoki.cs" />
     <Compile Include="Assets\Script\Item.cs" />
     <Compile Include="Assets\Script\scene.cs" />
     <Compile Include="Assets\Script\scene2.cs" />
