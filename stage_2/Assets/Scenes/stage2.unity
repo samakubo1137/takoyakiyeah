@@ -64491,14 +64491,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-<<<<<<< HEAD
-    - target: {fileID: 7621899825225787056, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
-=======
->>>>>>> a20db60af1cdcb760935b64ce7a06d2180039dd6
     - target: {fileID: 5912382952459411381, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_IsActive
@@ -64543,31 +64535,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4829370646647766775, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: itemButton
-      value: 
-      objectReference: {fileID: 1385269264}
-    - target: {fileID: 4829370646647766775, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: reStartButton
-      value: 
-      objectReference: {fileID: 931034484}
-    - target: {fileID: 4829370646647766775, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: itemPanel
-      value: 
-      objectReference: {fileID: 1892453029}
-    - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 169
-      objectReference: {fileID: 0}
-    - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 401
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c, type: 3}
