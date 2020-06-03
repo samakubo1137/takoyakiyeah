@@ -108,6 +108,7 @@
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\Script\bossnougoki.cs" />
     <Compile Include="Assets\Script\saiyomikomi.cs" />
+    <Compile Include="Assets\Script\saiyomikomi2.cs" />
     <Compile Include="Assets\Script\scene.cs" />
     <Compile Include="Assets\Script\scene2.cs" />
     <Compile Include="Assets\Script\scene3.cs" />
