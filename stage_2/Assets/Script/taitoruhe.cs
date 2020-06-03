@@ -7,7 +7,7 @@ public class taitoruhe : MonoBehaviour
 {
     public void StartGame()
     {
-		SceneManager.LoadScene ("boss");
+		SceneManager.LoadScene ("Title");
 	}
 
    

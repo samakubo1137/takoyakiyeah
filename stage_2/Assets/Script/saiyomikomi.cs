@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;//クラス名の上に追加してくださ�
 
 public class saiyomikomi : MonoBehaviour
 {
-    string waaa;
+    string stage1;
 
     // Start is called before the first frame update
     void Start()
     {
-        waaa = SceneManager.GetActiveScene().name;
+        stage1 = SceneManager.GetActiveScene().name;
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class saiyomikomi : MonoBehaviour
 
     public void RetryButton()
     {
-        SceneManager.LoadScene(waaa);
+        SceneManager.LoadScene(stage1);
     }
 
 }
