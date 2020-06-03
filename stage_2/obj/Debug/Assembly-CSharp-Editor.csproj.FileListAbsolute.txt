@@ -312,4 +312,3 @@ C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.i
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.pdb
-C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\Assembly-CSharp.pdb
