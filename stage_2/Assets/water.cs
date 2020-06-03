@@ -18,6 +18,8 @@ public class water : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (Input.GetKey(KeyCode.A))
         {
             Water -= 1;
@@ -29,7 +31,12 @@ public class water : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        
+
+        if (collision.gameObject.tag == "Item")
+        {
+            Water += 20;
+        }
+
         if (Water <= 0)
         {
             SceneManager.LoadScene("GameOver");

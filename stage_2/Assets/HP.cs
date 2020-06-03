@@ -31,6 +31,11 @@ public class hp : MonoBehaviour
             HP -= 1;
         }
 
+        if (collision.gameObject.tag == "Trap")
+        {
+            HP -= 1;
+        }
+
         if (HP <= 0)
         {
             SceneManager.LoadScene("GameOver");
