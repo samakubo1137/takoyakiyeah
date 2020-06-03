@@ -34,7 +34,7 @@ public class water : MonoBehaviour
 
         if (collision.gameObject.tag == "Item")
         {
-            Water += 5;
+            Water += 20;
         }
 
         if (Water <= 0)

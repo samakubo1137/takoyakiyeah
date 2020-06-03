@@ -97,6 +97,7 @@
     <Compile Include="Assets\FireGenerator.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
     <Compile Include="Assets\hp.cs" />
+    <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
     <Compile Include="Assets\OPERATION\Title.cs" />
@@ -106,7 +107,6 @@
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\Script\bossnougoki.cs" />
-    <Compile Include="Assets\Script\Item.cs" />
     <Compile Include="Assets\Script\scene.cs" />
     <Compile Include="Assets\Script\scene2.cs" />
     <Compile Include="Assets\Script\scene3.cs" />
