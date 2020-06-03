@@ -1740,27 +1740,27 @@ PrefabInstance:
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -3
+      value: 412
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -95
+      value: 179
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 262
+      value: 412
       objectReference: {fileID: 0}
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -1810,7 +1810,7 @@ PrefabInstance:
     - target: {fileID: 3616138933505239031, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4829370646647766775, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -45528,6 +45528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f43f8dc86d4c1643bf52215c4edef88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 3
+  slider: {fileID: 0}
 --- !u!114 &1765210246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45928,7 +45930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.06657174, g: 0.54747266, b: 0.8301887, a: 1}
+  m_Color: {r: 0.11173906, g: 0.15100077, b: 0.8773585, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
