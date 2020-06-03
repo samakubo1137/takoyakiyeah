@@ -9,6 +9,8 @@ TagManager:
   - Goal
   - Dead
   - Wall
+  - Item
+  - Trap
   layers:
   - Default
   - TransparentFX
