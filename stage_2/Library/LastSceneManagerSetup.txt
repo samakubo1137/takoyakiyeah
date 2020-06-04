@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/BOSS.unity
+=======
+- path: Assets/OPERATION/OPERATION.unity
+>>>>>>> 8c321a2a384fa609f9b7ec90e848d28eae5041e2
   isLoaded: 1
   isActive: 1

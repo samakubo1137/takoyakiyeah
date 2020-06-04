@@ -108,6 +108,10 @@
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\Script\saiyomikomi.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Script\saiyomikomi2.cs" />
+>>>>>>> 8c321a2a384fa609f9b7ec90e848d28eae5041e2
     <Compile Include="Assets\Script\scene.cs" />
     <Compile Include="Assets\Script\scene2.cs" />
     <Compile Include="Assets\Script\scene3.cs" />
