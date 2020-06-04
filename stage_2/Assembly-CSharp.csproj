@@ -107,12 +107,7 @@
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTilePattern.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Script\Item.cs" />
-=======
-    <Compile Include="Assets\Script\bossnougoki.cs" />
     <Compile Include="Assets\Script\saiyomikomi.cs" />
->>>>>>> 86932ee37a34a7078593133f598072e0f0ab80d6
     <Compile Include="Assets\Script\scene.cs" />
     <Compile Include="Assets\Script\scene2.cs" />
     <Compile Include="Assets\Script\scene3.cs" />
