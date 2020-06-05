@@ -1,4 +1,20 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/stage2.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/GameOver.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/BOSS.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/GameOver.unity
+=======
+- path: Assets/Scenes/stage2.unity
+>>>>>>> 560c9c2dd059bf9eac5cb696c344926e051f067a
+>>>>>>> 03d02ba40edc9b3f186cec41d153f1f615584721
+>>>>>>> ec55678e722ca3ede17e6042d30e626f6fe4c636
+>>>>>>> cad81b03a649780c044e40fcf5ec92eb2508960f
   isLoaded: 1
   isActive: 1
