@@ -22,7 +22,7 @@ public class FireGenerator : MonoBehaviour
         {
             this.delta = 0;
             GameObject go = Instantiate(firePrefab) as GameObject;
-            int px = Random.Range(-10, 15);
+            int px = Random.Range(-10, 20);
             go.transform.position = new Vector3(px, 10, 0);
         }
 
