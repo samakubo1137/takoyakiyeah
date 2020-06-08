@@ -1268,7 +1268,7 @@ Transform:
   m_Children:
   - {fileID: 1127985751}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1832,7 +1832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &611072883
 PrefabInstance:
@@ -1969,12 +1969,12 @@ PrefabInstance:
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 412
+      value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 5000768040766292179, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 180
+      value: 194
       objectReference: {fileID: 0}
     - target: {fileID: 5797763599310547495, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -2096,15 +2096,20 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8756037410205942284, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 412
+      value: 276
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 179
+      value: 196
       objectReference: {fileID: 0}
     - target: {fileID: 9199961558849841140, guid: f1a400f32edfbfb4eb6f9f86f7bd5b9c,
         type: 3}
@@ -2228,13 +2233,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 09a648759e0ec674f934cd57d1372875, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.34
+  m_Pitch: 0.64
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 89
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2652,7 +2657,7 @@ RectTransform:
   - {fileID: 153714591}
   - {fileID: 945748442}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -44997,7 +45002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4446266598201974, guid: d10cbe6b249ddc34db2eae14d2ae9f3d, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4446266598201974, guid: d10cbe6b249ddc34db2eae14d2ae9f3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -45731,6 +45736,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 307856406439430950, guid: 9c38b1435ec3ad1499bcb5df553ac962,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 307856406439430952, guid: 9c38b1435ec3ad1499bcb5df553ac962,
         type: 3}
