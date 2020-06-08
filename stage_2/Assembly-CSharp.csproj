@@ -88,6 +88,7 @@
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
     <Compile Include="Assets\BossGenerater.cs" />
+    <Compile Include="Assets\BossHealth.cs" />
     <Compile Include="Assets\BossScript.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\ClearDirector.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\Fire.cs" />
     <Compile Include="Assets\FireGenerator.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
+    <Compile Include="Assets\HP.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\OPERATION\Title.cs" />
     <Compile Include="Assets\PlayerController.cs" />
@@ -118,7 +120,6 @@
     <Compile Include="Assets\Water_Bar\Player.cs" />
     <Compile Include="Assets\Water_Bar\Player_Water.cs" />
     <Compile Include="Assets\camera.cs" />
-    <Compile Include="Assets\hp.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
     <Compile Include="Assets\stage1.cs" />
