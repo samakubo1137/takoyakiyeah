@@ -88,6 +88,7 @@
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
     <Compile Include="Assets\BossGenerater.cs" />
+    <Compile Include="Assets\BossScript.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\ClearDirector.cs" />
     <Compile Include="Assets\Click.cs" />
