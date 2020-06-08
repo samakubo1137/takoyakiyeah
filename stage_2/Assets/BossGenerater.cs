@@ -32,7 +32,7 @@ public class BossGenerater : MonoBehaviour
         // 移動を計算させるための２次元のベクトルを作る 
         Vector2 direction = new Vector2(x - transform.position.x, y).normalized;
         // ENEMYのRigidbody2Dに移動速度を指定する 
-        rb2d.velocity = direction * 4;
+        rb2d.velocity = direction * 2;
     }
 
 }

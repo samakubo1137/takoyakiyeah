@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireGenerator : MonoBehaviour
 {
     public GameObject firePrefab;
-    float span = 0.5f;
+    float span = 0.3f;
     float delta = 0;
 
     // Start is called before the first frame update
