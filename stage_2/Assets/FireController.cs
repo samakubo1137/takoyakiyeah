@@ -36,7 +36,7 @@ public class FireController : MonoBehaviour
         //    Destroy(gameObject);
         //}
 
-        
+
 
     }
 }
