@@ -95,7 +95,6 @@
     <Compile Include="Assets\CyberPunk_Blonde\Demo\Necessary for Demo Scene\Input_Controller.cs" />
     <Compile Include="Assets\CyberPunk_Blonde\Documentation\Readme.txt.cs" />
     <Compile Include="Assets\Destroy.cs" />
-    <Compile Include="Assets\Destroy1.cs" />
     <Compile Include="Assets\EnemyHelth.cs" />
     <Compile Include="Assets\EnemyMove.cs" />
     <Compile Include="Assets\FireController.cs" />
