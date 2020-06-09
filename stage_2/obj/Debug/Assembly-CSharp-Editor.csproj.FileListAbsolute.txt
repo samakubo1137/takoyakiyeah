@@ -272,7 +272,6 @@ C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\nunit.framewo
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\obj\Debug\Assembly-CSharp-Editor.pdb
-C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
@@ -315,3 +314,4 @@ C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEngine.S
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.UI.pdb
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\Assembly-CSharp.pdb
