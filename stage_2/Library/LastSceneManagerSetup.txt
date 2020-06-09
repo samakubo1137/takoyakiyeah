@@ -1,5 +1,8 @@
 sceneSetups:
 <<<<<<< HEAD
+- path: Assets/Scenes/BOSS.unity
+=======
+<<<<<<< HEAD
 - path: Assets/Scenes/stage1.unity
 =======
 <<<<<<< HEAD
