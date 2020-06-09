@@ -5,8 +5,11 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    private int score = 0;
+    //private int score = 0;
+
     private Text Score;
+    public static int score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,4 +27,10 @@ public class ScoreManager : MonoBehaviour
     {
         
     }
+
+    public static int getA()
+    {
+        return score;
+    }
+
 }

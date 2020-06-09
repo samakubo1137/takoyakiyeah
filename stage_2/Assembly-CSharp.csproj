@@ -104,6 +104,7 @@
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\OPERATION\Title.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Return.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTile.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTilePattern.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
