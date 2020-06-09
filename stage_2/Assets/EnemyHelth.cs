@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHelth : MonoBehaviour
 {
 
-    private float hp = 50;
+    private float hp = 300;
     // Start is called before the first frame update
     void Start()
     {
