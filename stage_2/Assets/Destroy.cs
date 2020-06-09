@@ -20,12 +20,13 @@ public class Destroy : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collider)
     {
-        // 弾とエネミーオブジェクトを消滅させる
-        if (collider.gameObject.tag == "Enemy")
+        //// 弾とエネミーオブジェクトを消滅させる
+        //if (collider.gameObject.tag == "Enemy")
         {
             Destroy(collider.gameObject);   // 弾オブジェクト消去
             Destroy(gameObject);            // 自オブジェクト消去
+
+            sm.AddScore(Score);
         }
-        sm.AddScore(Score);
     }
 }
