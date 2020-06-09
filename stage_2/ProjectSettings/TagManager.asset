@@ -11,6 +11,8 @@ TagManager:
   - Wall
   - Item
   - Trap
+  - Water
+  - Boss
   layers:
   - Default
   - TransparentFX
