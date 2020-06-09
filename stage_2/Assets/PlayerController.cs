@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
             // 弾プレハブのインスタンスを生成し、変数objに格納
             obj = Instantiate(bulletPrefab);
             // 弾インスタンスの座標にプレイヤーの座標をセット
-            obj.transform.position = transform.position+ new Vector3(0.0f, +0.5f, 0.0f);
+            obj.transform.position = transform.position;
         }
 
         //キャラのy軸のdirection方向にscrollの力をかける
