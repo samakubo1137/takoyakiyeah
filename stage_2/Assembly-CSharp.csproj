@@ -121,6 +121,7 @@
     <Compile Include="Assets\hp.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
+    <Compile Include="Assets\scoa表示.cs" />
     <Compile Include="Assets\stage1.cs" />
     <Compile Include="Assets\water.cs" />
     <None Include="Assets\Ruccho\FangAutoTile\Readme-ja.txt" />
