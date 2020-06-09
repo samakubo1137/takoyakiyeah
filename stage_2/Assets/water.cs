@@ -18,13 +18,18 @@ public class water : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
 
-        if (Input.GetKey(KeyCode.A))
+        if (Water > 0)
         {
-            Water -= 1;
-            Debug.Log("water");
+
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                Water -= 1;
+                Debug.Log("water");
+            }
         }
+       
 
         _slider.value = Water;
     }
@@ -37,10 +42,8 @@ public class water : MonoBehaviour
             Water += 20;
         }
 
-        if (Water <= 0)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
+       
+       
     }
 
 

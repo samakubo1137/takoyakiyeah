@@ -3,34 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreManager : MonoBehaviour
+public class Return : MonoBehaviour
 {
-    //private int score = 0;
-
+    int b;
     private Text Score;
-    public static int score = 0;
-
     // Start is called before the first frame update
     void Start()
     {
+        b = ScoreManager.getA();
+        print(b);
         Score = GameObject.Find("Score").GetComponent<Text>();
-        Score.text = "Score:" + score;
+        Score.text = "Score:" + b;
     }
-    //sucoreを増加させる
-    public void AddScore(int amount)
-    {
-        score += amount;
-        Score.text = "Score:" + score;
-    }
+
     // Update is called once per frame
     void Update()
     {
         
     }
-
-    public static int getA()
-    {
-        return score;
-    }
-
 }

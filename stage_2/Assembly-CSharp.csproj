@@ -101,10 +101,10 @@
     <Compile Include="Assets\FireController.cs" />
     <Compile Include="Assets\FireGenerator.cs" />
     <Compile Include="Assets\GroundCheck.cs" />
-    <Compile Include="Assets\HP.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\OPERATION\Title.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Return.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTile.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\FangAutoTilePattern.cs" />
     <Compile Include="Assets\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
@@ -121,6 +121,7 @@
     <Compile Include="Assets\Water_Bar\Player.cs" />
     <Compile Include="Assets\Water_Bar\Player_Water.cs" />
     <Compile Include="Assets\camera.cs" />
+    <Compile Include="Assets\hp.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
     <Compile Include="Assets\scoa表示.cs" />
