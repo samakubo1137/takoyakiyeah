@@ -12,29 +12,25 @@ public class FireController : MonoBehaviour
        
        
     }
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        // 弾とエネミーオブジェクトを消滅させる
+        Destroy(collider.gameObject);   // 弾オブジェクト消去
+        Destroy(gameObject);            // 自オブジェクト消去
+
+    }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.05f, 0, 0);
+        transform.Translate(0.01f, 0, 0);
 
         if (transform.position.y < -5.0f)
         {
             Destroy(gameObject);
         }
 
-        ////当たり判定
-        //Vector2 p1 = transform.position;
-        //Vector2 p2 = this.Player.transform.position;
-        //Vector2 dir = p1 - p2;
-        //float d = dir.magnitude;
-        //float r1 = 0.5f; //半径
-        //float r2 = 1.0f; //プレイヤの半径
-
-        //if (d < r1 + r2)
-        //{
-        //    Destroy(gameObject);
-        //}
+        
 
 
 
