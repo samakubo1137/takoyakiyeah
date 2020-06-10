@@ -20,7 +20,7 @@ public class sceneikou : MonoBehaviour
     void Update()
     {
         // マウスを左クリックした瞬間
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKey(KeyCode.Space))
         {
             SceneManager.LoadScene("BOSS");
         }
