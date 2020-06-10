@@ -4669,6 +4669,7 @@ GameObject:
   - component: {fileID: 1765210244}
   - component: {fileID: 1765210240}
   - component: {fileID: 1765210246}
+  - component: {fileID: 1765210245}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4692,6 +4693,7 @@ MonoBehaviour:
   scroll: 5
   bulletPrefab: {fileID: 3486088929263489231, guid: 14139d6383981324e809be79fca708d8,
     type: 3}
+  sc: {fileID: 0}
 --- !u!50 &1765210241
 Rigidbody2D:
   serializedVersion: 4
@@ -4793,6 +4795,20 @@ CapsuleCollider2D:
   m_Offset: {x: -0.066456795, y: 0}
   m_Size: {x: 2.6862943, y: 7.9999995}
   m_Direction: 0
+--- !u!114 &1765210245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765210239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f43f8dc86d4c1643bf52215c4edef88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 3
+  slider: {fileID: 818874725}
 --- !u!114 &1765210246
 MonoBehaviour:
   m_ObjectHideFlags: 0
