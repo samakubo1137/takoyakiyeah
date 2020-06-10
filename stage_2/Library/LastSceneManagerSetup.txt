@@ -1,5 +1,34 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/stage2.unity
+=======
+- path: Assets/Scenes/stage1.unity
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/stage1.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/BOSS.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/stage1.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/BOSS.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/stage1.unity
+=======
+- path: Assets/Scenes/stage2.unity
+>>>>>>> 5db518df6621b880af61ea7113ce16df3f85e500
+>>>>>>> d7718708fea5b68ed3c768b67d2b6f0845ac1f57
+>>>>>>> c41671f0fa04978e5375fa5c87048db590e43499
+>>>>>>> 04c72f783ca91d370595b4c79cd929f5db1529c4
+>>>>>>> 89c55e678dc0be87d23262b1110ae6a2d4cbccd1
+>>>>>>> 7a5fcd03ccae6e7a7d95a8c4d0e9257535f0f423
+>>>>>>> 709377e552cc2932b2525847483dcfeaa3d7726f
+>>>>>>> 8952572eb6d16f402e4736bb7cfd5307c39d5f39
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
