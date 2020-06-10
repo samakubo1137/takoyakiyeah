@@ -4,6 +4,7 @@ sceneSetups:
 =======
 - path: Assets/Scenes/stage1.unity
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -30,5 +31,8 @@ sceneSetups:
 >>>>>>> 7a5fcd03ccae6e7a7d95a8c4d0e9257535f0f423
 >>>>>>> 709377e552cc2932b2525847483dcfeaa3d7726f
 >>>>>>> 8952572eb6d16f402e4736bb7cfd5307c39d5f39
+=======
+>>>>>>> 1256179105241a8fbf03e48d3bdf740b30504b7d
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
