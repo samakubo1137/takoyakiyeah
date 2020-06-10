@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     bool jump = false;
     public GameObject bulletPrefab; // 弾のプレハブ
 
-   
+    public water sc;
 
 
     // Use this for initialization
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         //コンポーネント読み込み
         rb2d = GetComponent<Rigidbody2D>();
+        sc = GetComponent<water>();
     }
 
 
@@ -42,19 +43,21 @@ public class PlayerController : MonoBehaviour
         {
             direction = 0f;
         }
-       
-        
 
 
-        // -----弾発射処理-----
-        if (Input.GetKey(KeyCode.A))
-        { // 左クリックを押された瞬間
-          // GameObject型ローカル変数を宣言 (生成したインスタンスを格納する)
-            GameObject obj;
-            // 弾プレハブのインスタンスを生成し、変数objに格納
-            obj = Instantiate(bulletPrefab);
-            // 弾インスタンスの座標にプレイヤーの座標をセット
-            obj.transform.position = transform.position+ new Vector3(0.0f, +0.5f, 0.0f);
+        if (sc.Water > 0)
+        {
+
+            // -----弾発射処理-----
+            if (Input.GetKey(KeyCode.A))
+            { // 左クリックを押された瞬間
+              // GameObject型ローカル変数を宣言 (生成したインスタンスを格納する)
+                GameObject obj;
+                // 弾プレハブのインスタンスを生成し、変数objに格納
+                obj = Instantiate(bulletPrefab);
+                // 弾インスタンスの座標にプレイヤーの座標をセット
+                obj.transform.position = transform.position + new Vector3(0.0f, +0.5f, 0.0f);
+            }
         }
 
         //キャラのy軸のdirection方向にscrollの力をかける
