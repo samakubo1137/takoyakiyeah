@@ -120,22 +120,14 @@
     <Compile Include="Assets\Title\Operation.cs" />
     <Compile Include="Assets\Water_Bar\Player.cs" />
     <Compile Include="Assets\Water_Bar\Player_Water.cs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Assets\anime.cs" />
-=======
->>>>>>> 1256179105241a8fbf03e48d3bdf740b30504b7d
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
     <Compile Include="Assets\scoa表示.cs" />
     <Compile Include="Assets\stage1.cs" />
     <Compile Include="Assets\water.cs" />
-<<<<<<< HEAD
-=======
->>>>>>> 8952572eb6d16f402e4736bb7cfd5307c39d5f39
-=======
->>>>>>> 1256179105241a8fbf03e48d3bdf740b30504b7d
+    <Compile Include="Assets\タイトルに戻る.cs" />
     <None Include="Assets\Ruccho\FangAutoTile\Readme-ja.txt" />
     <None Include="Assets\Medieval_pixel_art_asset_FREE\pixel_snapping_README.txt" />
     <None Include="Assets\Ruccho\FangAutoTile\Readme.txt" />
