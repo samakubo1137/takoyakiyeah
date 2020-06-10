@@ -23,7 +23,7 @@ public class FireController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0.06f, 0, 0);
+        transform.Translate(0.01f, 0, 0);
 
         if (transform.position.y < -5.0f)
         {

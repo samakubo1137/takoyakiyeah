@@ -868,3 +868,6 @@ C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.U
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEditor.TestRunner.pdb
 C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\UnityEngine.TestRunner.pdb
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\nunit.framework.dll
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\nunit.framework.pdb
+C:\Users\user\Documents\GitHub\takoyakiyeah\stage_2\Temp\bin\Debug\nunit.framework.xml

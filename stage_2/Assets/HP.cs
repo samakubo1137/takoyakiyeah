@@ -30,6 +30,10 @@ public class hp : MonoBehaviour
         {
             HP -= 1;
         }
+        if(collision.gameObject.tag=="Boss")
+        {
+            HP -= 1;
+        }
 
         if (collision.gameObject.tag == "Trap")
         {
