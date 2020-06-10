@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     bool jump = false;
     public GameObject bulletPrefab; // 弾のプレハブ
 
+   
+
 
     // Use this for initialization
     void Start()
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             direction = 1f;
+            
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -39,6 +42,8 @@ public class PlayerController : MonoBehaviour
         {
             direction = 0f;
         }
+       
+        
 
 
         // -----弾発射処理-----
@@ -60,7 +65,11 @@ public class PlayerController : MonoBehaviour
         {
             rb2d.AddForce(Vector2.up * flap);
             jump = true;
+
         }
+        
+
+
 
 
     }
