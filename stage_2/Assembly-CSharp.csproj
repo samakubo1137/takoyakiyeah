@@ -120,6 +120,7 @@
     <Compile Include="Assets\Title\Operation.cs" />
     <Compile Include="Assets\Water_Bar\Player.cs" />
     <Compile Include="Assets\Water_Bar\Player_Water.cs" />
+    <Compile Include="Assets\anime.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\muteki.cs" />
