@@ -12,9 +12,10 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d;
     bool jump = false;
     public GameObject bulletPrefab; // 弾のプレハブ
-
     public water sc;
+    
 
+    
 
     // Use this for initialization
     void Start()
@@ -30,15 +31,18 @@ public class PlayerController : MonoBehaviour
     {
 
         //キーボード操作
-        if (Input.GetKey(KeyCode.RightArrow))
+        float key = 0;
+
+        if (Input.GetKey(KeyCode.RightArrow)) 
         {
             direction = 1f;
-            
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+            key = 0.25f;
+        } 
+        else if (Input.GetKey(KeyCode.LeftArrow)) 
         {
             direction = -1f;
-        }
+            key = -0.25f;
+        } 
         else
         {
             direction = 0f;
@@ -59,9 +63,14 @@ public class PlayerController : MonoBehaviour
                 obj.transform.position = transform.position + new Vector3(0.0f, +0.5f, 0.0f);
             }
         }
+    
+       if(key != 0)
+        {
+            transform.localScale = new Vector3(key, 0.25f, 0.25f);
+        }
 
-        //キャラのy軸のdirection方向にscrollの力をかける
-        rb2d.velocity = new Vector2(scroll * direction, rb2d.velocity.y);
+                //キャラのy軸のdirection方向にscrollの力をかける
+                rb2d.velocity = new Vector2(scroll * direction, rb2d.velocity.y);
 
         //ジャンプ判定
         if (Input.GetKeyDown("space") && !jump)
@@ -96,3 +105,4 @@ public class PlayerController : MonoBehaviour
 
     }    
 }
+
