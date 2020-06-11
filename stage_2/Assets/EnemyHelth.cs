@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHelth : MonoBehaviour
 {
 
-    private float hp = 300;
+    private float hp = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +31,8 @@ public class EnemyHelth : MonoBehaviour
         {
             Destroy(gameObject);　//ゲームオブジェクト破壊
         }
+
         
     }
+    
 }
