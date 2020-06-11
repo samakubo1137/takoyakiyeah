@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
         time += Time.deltaTime;
         // 消滅処理
         if (time > 0.5f)
-        { // 弾の経過時間が3秒より大きければ
+        { // 弾の経過時間が0.5秒より大きければ
             Destroy(gameObject);
         }
     }
