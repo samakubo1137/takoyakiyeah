@@ -31,17 +31,17 @@ public class PlayerController : MonoBehaviour
     {
 
         //キーボード操作
-        float key = 0;
+       // float key = 0;
 
         if (Input.GetKey(KeyCode.RightArrow)) 
         {
             direction = 1f;
-            key = 0.25f;
+           // key = 0.25f;
         } 
         else if (Input.GetKey(KeyCode.LeftArrow)) 
         {
             direction = -1f;
-            key = -0.25f;
+          //  key = -0.25f;
         } 
         else
         {
@@ -64,10 +64,10 @@ public class PlayerController : MonoBehaviour
             }
         }
     
-       if(key != 0)
-        {
-            transform.localScale = new Vector3(key, 0.25f, 0.25f);
-        }
+       //if(key != 0)
+       // {
+       //     transform.localScale = new Vector3(key, 0.25f, 0.25f);
+       // }
 
                 //キャラのy軸のdirection方向にscrollの力をかける
                 rb2d.velocity = new Vector2(scroll * direction, rb2d.velocity.y);
