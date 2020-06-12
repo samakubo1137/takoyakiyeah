@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ClaerScene.unity
     guid: 3dfa9e0ae2f05ed48a6a7586720765ee
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/stage2.unity
     guid: 650c954e3ca0e1b41974589d9133bd63
   - enabled: 1
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BOSS.unity
     guid: e3ed84860fe76d04db8683074093f644
+  - enabled: 1
+    path: Assets/Scenes/Clear2.unity
+    guid: 48b59e4a30913934b8422bf3ceced82c
   m_configObjects: {}
