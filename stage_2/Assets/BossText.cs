@@ -16,7 +16,7 @@ public class BossText : MonoBehaviour
     void Update()
     {
         step_time += Time.deltaTime;
-        if (step_time >= 3.0f)
+        if (step_time >= 5.0f)
         {
             SceneManager.LoadScene("ClaerScene");
         }

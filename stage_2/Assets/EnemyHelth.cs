@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 
 public class EnemyHelth : MonoBehaviour
 {
 
     private float hp = 10;
-
-    public Text GoalText;
     
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,16 +37,14 @@ public class EnemyHelth : MonoBehaviour
         //体力が０以下になった時の処理
         if (hp <= 0)
         {
-            Destroy(gameObject); //ゲームオブジェクト破壊
-            GoalText.enabled = true;
-
+            
+            SceneManager.LoadScene("Clear2");
+            Destroy(gameObject); //ゲームオブジェクト
+            
         }
-
-
-
-
-
+       
     }
     
-    
+
+
 }

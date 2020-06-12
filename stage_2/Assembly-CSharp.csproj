@@ -91,6 +91,7 @@
     <Compile Include="Assets\BossScript.cs" />
     <Compile Include="Assets\BossText.cs" />
     <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\Clear.cs" />
     <Compile Include="Assets\ClearDirector.cs" />
     <Compile Include="Assets\Click.cs" />
     <Compile Include="Assets\CyberPunk_Blonde\Demo\Necessary for Demo Scene\Input_Controller.cs" />
