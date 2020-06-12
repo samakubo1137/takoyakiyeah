@@ -33,7 +33,7 @@ public class scene3 : MonoBehaviour
         itemPanel.SetActive(false);
         reStartButton.SetActive(false);
         itemButton.SetActive(true);
-        Time.timeScale = 1f;
+        Time.timeScale = 0f;
 
     }
         // Update is called once per frame
