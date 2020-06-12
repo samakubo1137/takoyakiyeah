@@ -22,6 +22,7 @@ public class saiyomikomi : MonoBehaviour
 
     public void RetryButton()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(stage1);
     }
 
