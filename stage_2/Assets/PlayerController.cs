@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     bool jump = false;
     public GameObject bulletPrefab; // 弾のプレハブ
     public water sc;
-    
+   
 
     
 
@@ -23,8 +23,10 @@ public class PlayerController : MonoBehaviour
         //コンポーネント読み込み
         rb2d = GetComponent<Rigidbody2D>();
         sc = GetComponent<water>();
+        
     }
 
+  
 
     // Update is called once per frame
     void Update()
@@ -48,7 +50,7 @@ public class PlayerController : MonoBehaviour
             direction = 0f;
         }
 
-
+      
         if (sc.Water > 0)
         {
 
@@ -77,6 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             rb2d.AddForce(Vector2.up * flap);
             jump = true;
+            
 
         }
         

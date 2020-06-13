@@ -9,10 +9,12 @@ public class water : MonoBehaviour
     public int Water = 100;
     private Slider _slider;
     public GameObject slider;
+    private AudioSource sound01;
 
     void Start()
     {
         _slider = slider.GetComponent<Slider>();
+        sound01 = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,10 @@ public class water : MonoBehaviour
             {
                 Water -= 1;
                 Debug.Log("water");
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                sound01.PlayOneShot(sound01.clip);
             }
         }
        
